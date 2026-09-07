@@ -1,8 +1,15 @@
 [submodule "android-skills"]
-	path = android-skills
+	path = .vendor/android-skills
 	url = https://github.com/android/skills.git
 	branch = main
 [submodule "chrisbanes-skills"]
-	path = chrisbanes-skills
+	path = .vendor/chrisbanes-skills
 	url = https://github.com/chrisbanes/skills.git
 	branch = main
+	skillsroot = skills
+[submodule "caveman"]
+	path = .vendor/caveman
+	url = https://github.com/JuliusBrussee/caveman.git
+	branch = main
+	skillsroot = skills/caveman
+	skillsprefix = caveman
