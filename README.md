@@ -1,32 +1,26 @@
-# Claude Skills
+# Skills
 
-Skills for Claude Code. Two of them are git submodules that track upstream `main`.
+A personal set of usefull skills for Android development & Kotlin.
 
-| Skill | Type | Source |
-|---|---|---|
-| `android-skills` | submodule | [android/skills](https://github.com/android/skills) |
-| `chrisbanes-skills` | submodule | [chrisbanes/skills](https://github.com/chrisbanes/skills) |
-| `caveman` | local | — |
-| `plain-english` | local | — |
+## Skills
 
-## First use
+- [`android-skills`](android-skills/): submodule of [android/skills](https://github.com/android/skills). Android platform patterns and workflows.
+- [`chrisbanes-skills`](chrisbanes-skills/): submodule of [chrisbanes/skills](https://github.com/chrisbanes/skills). Kotlin, Jetpack Compose, and grounded writing.
+- [`caveman`](caveman/): compress output tokens with a terse speaking mode.
+- [`plain-english`](plain-english/): open dense writing with a plain-English mental model.
 
-Get the submodule content after a fresh clone:
+## Install
 
-```sh
+Fetch the submodule content after a fresh clone:
+
+```
 git submodule update --init --recursive
 ```
 
-## Update
+## Update submodules
 
-Pull the latest `main` of both submodules:
+Pull the latest of all submodules:
 
-```sh
-git submodule update --remote --merge
 ```
-
-The command leaves the new pointers staged. Examine them, then commit:
-
-```sh
-git commit -am "Update skill submodules"
+git submodule update --remote --merge
 ```
