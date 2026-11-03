@@ -13,3 +13,7 @@
 	branch = main
 	skillsroot = skills/caveman
 	skillsprefix = caveman
+[submodule "claude-android-skill"]
+	path = .vendor/claude-android-skill
+	url = https://github.com/dpconde/claude-android-skill.git
+	branch = main

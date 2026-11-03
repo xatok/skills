@@ -45,3 +45,4 @@ git config -f .gitmodules submodule.<name>.skillsprefix <prefix>   # defaults to
 | `android-`    | https://github.com/android/skills        |
 | `chrisbanes-` | https://github.com/chrisbanes/skills     |
 | `caveman`     | https://github.com/JuliusBrussee/caveman |
+| `dpconde-`    | https://github.com/dpconde/claude-android-skill |
